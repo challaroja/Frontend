@@ -1,0 +1,15 @@
+.dotted{
+    border-style:dashed;
+    border-color:red;
+    border-width:3px;
+    background-color:lightyellow;
+    text-align:center;
+}
+#dotted
+{
+    border-style:dotted;
+    border-color:black;
+    border-width:5px;
+    background-color:rgb(120,150,10);
+    text-align:center;
+}
