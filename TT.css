@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.login-section, .info-section {
+    flex: 1;
+    padding: 30px;
+}
+
+.login-section {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #4a90e2;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #777;
+    text-align: center;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+}
+
+.google-btn {
+    background-color: #4285F4;
+    color: white;
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+    color: white;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-account {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info-section {
+    background-color: #f4f8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+}
+
+.info-section h2 {
+    color: #4a90e2;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info-section p {
+    color: #777;
+}

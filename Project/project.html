@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance System</title>
+  <link rel="stylesheet" href="project.css">
+</head>
+<body>
+  <div id="attendance-screen">
+    <h1>ATTENDANCE</h1>
+  </div>
+
+  <div id="login-form" style="display: none;">
+    <h2>Login</h2>
+    <form id="login">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <div id="attendance-form" style="display: none;">
+    <h2>Attendance </h2>
+    <form id="attendance">
+      <label for="name">Candidate Name:</label>
+      <input type="text" id="name" required>
+      <label for="course">Course:</label>
+      <input type="text" id="course" required>
+      <label for="date">Date:</label>
+      <input type="date" id="date" required>
+      
+      <button type="submit">Submit Attendance</button>
+    </form>
+    <div id="success-message" style="display: none;">
+      <p>Attendance recorded successfully!</p>
+    </div>
+  </div>
+
+  <script src="project.js"></script>
+</body>
+</html>

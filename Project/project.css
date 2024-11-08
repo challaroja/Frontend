@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('img1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+  }
+  #attendance-screen{
+    font-size: xx-large;
+  }
+  
+   #login-form, #attendance-form {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 8px;
+
+    
+
+  }
+  
+  form label, form input {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
